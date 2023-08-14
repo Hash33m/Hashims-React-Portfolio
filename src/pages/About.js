@@ -2,42 +2,78 @@ import React from "react";
 
 function About() {
   return (
-    <>
-      <div className="m-5">
-        <h2 className="m-2">About Me</h2>
-        <div>
+    <div className="container mt-5">
+      <h2 className="mb-4">About Me</h2>
+      <div className="row">
+        <div className="col-md-6">
           <p>
             <strong>Hashim A. Mohamed</strong>
             <br />
-            <strong>Address:</strong> 8001 33rd Ave S, Bloomington, MN, 55425
+            <strong>Address:</strong> 11015 Bren Rd. E. Minnetonka, MN, 55343
             <br />
             <strong>E-mail & Phone:</strong> Hashim6409@gmail.com, 612 267 7463
           </p>
 
           <h3>Career Objective</h3>
           <p>
-            Detail oriented professional and strategic thinker with strong
-            analytical skills that can convert analysis into strategies and
-            tactical approaches. Highly developed skill set in project
-            leadership practices including ability to balance risk,
-            effectively influence diverse teams without authority, and
-            ownership of responsibility for outcomes. Contributes innovative
-            ideas that lead to positive organizational results, encouraging
-            and adopting new ways of looking at problems, processes and
-            solutions. Experienced in training development, client support and
-            management. Dedicated to inspiring employees, creating contented
-            clients, and maintaining operational efficiencies. Excellent
-            interpersonal communication with astounding written and verbal
-            communication. Enjoy discovering methods designed to improve
-            workflow and generate meticulous and intensive work across multiple
-            industries.
+            I'm a results-driven full-stack web developer with a strong
+            foundation gained from successfully completing a rigorous 6-month
+            bootcamp at the University of Minnesota. As a recent graduate, I
+            bring a fresh perspective and a passion for creating dynamic and
+            user-friendly web applications. My training has equipped me with a
+            comprehensive skill set, including proficiency in both front-end and
+            back-end technologies. My experience in project-based learning has
+            taught me how to efficiently analyze requirements, design elegant
+            solutions, and implement features that align with the client's
+            vision. I thrive in collaborative environments and enjoy working
+            with diverse teams to bring projects to life. My ability to adapt
+            quickly, embrace new technologies, and stay updated on industry
+            trends allows me to create innovative and efficient solutions.
+            During my bootcamp, I honed my problem-solving skills, allowing me
+            to overcome challenges and implement best practices in web
+            development. I'm enthusiastic about creating seamless user
+            experiences, optimizing performance, and continuously improving the
+            codebase. I am also experienced in working with databases, APIs, and
+            integrating third-party services. My dedication to continuous
+            learning drives me to explore new tools and frameworks, keeping me
+            at the forefront of modern web development. I am excited to
+            contribute to the success of any project I'm involved in, and I'm
+            committed to maintaining high standards of code quality, performance,
+            and scalability. I look forward to leveraging my education, skills,
+            and passion for web development to create valuable and impactful
+            solutions for the web.{" "}
           </p>
-
+        </div>
+        <div className="col-md-6">
           <h3>Technical Skills</h3>
           <ul>
-            <li>Microsoft Technologies: MS Office, MS Visual Studio</li>
-            <li>Software: MS Visio, MS Project, CRM Tools</li>
-            <li>Operating Systems: Windows XP/Vista/7/8/10 Mac OS, OS X</li>
+            <li>
+              Front-End Development:
+              <ul>
+                <li>HTML5, CSS3, JavaScript (ES6+)</li>
+                <li>React</li>
+                <li>Responsive Design and UI/UX Principles</li>
+                <li>Version Control (e.g., Git, GitHub)</li>
+              </ul>
+            </li>
+            <li>
+              Back-End Development:
+              <ul>
+                <li>Node.js, Express.js</li>
+                <li>Database Management (SQL, NoSQL)</li>
+                <li>Server Management and Deployment (Heroku)</li>
+                <li>API Development and Integration</li>
+              </ul>
+            </li>
+            <li>
+              Full Stack Proficiency:
+              <ul>
+                <li>Building RESTful APIs</li>
+                <li>Authentication and Authorization</li>
+                <li>Testing</li>
+                <li>Webpack, Babel, Build Tools</li>
+              </ul>
+            </li>
           </ul>
 
           <h3>Education</h3>
@@ -79,7 +115,7 @@ function About() {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

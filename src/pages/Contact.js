@@ -6,8 +6,7 @@ function Contact() {
   const handleFormSubmit = (event) => {
     event.preventDefault();
     setButtonClicked(true);
-    // Handle the form submission logic here
-    // You can validate the form inputs, send data to a server, etc.
+    
   };
 
   return (
